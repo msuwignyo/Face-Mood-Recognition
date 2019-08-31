@@ -1,0 +1,8 @@
+- activate base
+- cd C:\xampp\htdocs\FaceRecog\pyserver
+- set FLASK_ENV=development
+- flask run
+
+OR
+
+- open run_server.bat
