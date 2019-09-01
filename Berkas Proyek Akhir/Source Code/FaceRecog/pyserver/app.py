@@ -14,9 +14,9 @@ def face_recog():
 
 	client = boto3.client(
 		'rekognition',
-		aws_access_key_id='ASIAQWEQC7K53UDT7AW2',
-		aws_secret_access_key='HQtI9ALIBqMDqiau+SgzXxQDr7YfbN3NOZEv8gAx',
-		aws_session_token='FQoGZXIvYXdzELv//////////wEaDGvntfSDb2oolmqjpiKMAl3ILqtwt63QzbwmAuHNyyxdIZfkKgSSFjF6M91BFxD804Q+srYBLciQqDlp0GQE5yjwuG0pVBLFPPEbD2RwTXUs2jp5WNmCQ+ejubU8sW4Kvwi1DxaX08knmDZ8Jv18AAOLa1d7rFbmAVTYqntdmH/s8tQRCFBKK652uo1vp0ZYDBOmR10NGfZEd6nq8Seek/MFAC/ehUhlI8Z1qe4fbV8wKo3rzF47ebD8k7mrwBRkwhuvmoLesG7qCR68oEwLik+MRZkxRmn9nIXoy+TzrkcJLuvnSGCGE6UdWk8hNeS7w1frx15YT60IuvvoskNeOAjdsWMF51f1HE10VREd85iyKt4R67l9JDLxljEogZeS6wU='
+		aws_access_key_id='',
+		aws_secret_access_key='',
+		aws_session_token=''
 	)
 
 	encoded_img = request.form['encoded_img']
