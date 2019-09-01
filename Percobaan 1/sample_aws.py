@@ -11,9 +11,9 @@ if __name__ == "__main__":
 	ImageFile = ['example.jpg']
 	client=boto3.client(
 		'rekognition',
-		aws_access_key_id='ASIAWUQA2C3CJTCUQDTD',
-		aws_secret_access_key='3oXRNPmky2r93ik6o398B40ceAOcnAoIMu4jqEdG',
-		aws_session_token='FQoGZXIvYXdzEFsaDBHhl8HOc4Ne3mN/ZSKIAgf+4zDmCWoXQjt8Gp0+d8IS9QZfrOKmcfcrWu0IoQpFgBQ2ur/fRIsciMvZ0sXLF/PzSwsQSP5zGlbj9sTDzos0+B/1hejCrHLxBBLVoMcg3WFOvH7LRGw6+ZKNvlNtBAzHe3atYI1WBQnUQd9LfOGIgAyyvXKKGjHZIrNNnz4S6aJtp0NTNDV0RCZWQbRfqSpyXLbWnEVws5TYkbViQ1uYezWKnKPSV8hV0TFU7WViOQOrVM2yCtfiO4eZsdhqmTAOxgkVBa9QHutBWf7Q6x3X41hZu8jH75ewfqqJOoSruiKqWwqXSsfgKls/lSjfaPOq1uKSzEYwFkKv5xsCmCm3YSesNLT/8iiej/3qBQ=='
+		aws_access_key_id='',
+		aws_secret_access_key='',
+		aws_session_token=''
 	)
 
 	for ix, img in enumerate(ImageFile):
