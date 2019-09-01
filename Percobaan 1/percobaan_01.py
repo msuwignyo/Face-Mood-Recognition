@@ -12,9 +12,9 @@ import time
 
 client=boto3.client(
     'rekognition',
-    aws_access_key_id='ASIA32BIHZAJA2MZQ36R',
-    aws_secret_access_key='3Ijo/1udTP9lzFn9JxV6ZAWfLwOAliW0suygC8kd',
-    aws_session_token='FQoGZXIvYXdzEF8aDFVaJwRIgAZWnN+rVyKIAq8w02sxM3FOpIKadACjlRL1yPYUCPjy/VlG0Slqm0FI5p9DGGLPrOaaUfgB1RcuwN6rsSu+Hx70Za497eurKTKRqt1ouuht4pSu88o49nn0zKBatUvBrbLDZvuEgwzIqXfi1yQEWs0phUjPtp/cXXn/RGpPjJtPFCwudIBam5i+Mw02297zPaP2iXe8q6RB68OPJa4kXwa0T06UAKDps4LjHsIxdX1stM2LLXMqMjBh85/chAtmIMwlPMzRC1ZH5ZJpP3k2vKc3qLcmYxOaZM9S8C3cZkro+U8+G2QMcg46AoCc5wUzEEGEAg3I1DadAmzmp1dBRE2iu2og/aynBw6vMa6G41D4Ryin+v3qBQ=='
+    aws_access_key_id='',
+    aws_secret_access_key='',
+    aws_session_token=''
 )
 
 cap = cv2.VideoCapture(0)
