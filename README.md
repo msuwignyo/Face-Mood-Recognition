@@ -8,3 +8,5 @@ Percobaan 1 kami menggunakan AWS Rekognition, mencoba contoh kodingan yang dised
 Percobaan 2 kami mencoba membuat model kami sendiri. Face Detection kita menggunakan HaarCascade Classifier dan Mood Recognition menggunakan Mini-Xception. Kita men-train Mini-Xception sampai didapatkan akurasi 60%. 
 
 Percobaan 3 kami mengganti HaarCascade Classifier dengan MTCNN karena lebih akurat. Hasil akhir proyek ini berupa platform web mengguanakan hasil percobaan 1 dan 3. 
+
+[Video demo proyek](http://s.id/KobraFERDemo)
